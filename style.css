@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+    unicode-range: U+0000—001F;
+}
+header {
+  height: 75px;
+  background-color: #2196F3;
+  color: white;
+  font-family: 'Open Sans';
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+body {
+  background-color: #F5F5F5;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  padding-left: 20px;
+  padding-top: 13px;
+}
+h2 {
+  font-family: 'Open Sans';
+  font-size: 1.25em;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+a {
+  padding-left: 50px;
+  padding-top: 30px;
+}
